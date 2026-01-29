@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@layer base {
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--color-black);
+  }
+}
